@@ -1,0 +1,326 @@
+html{
+    font-family: Roboto;
+}
+.head{
+    padding: 50px 30px 50px 120px;
+    background: #EEEFF1;
+    height: 35em;
+}
+/* .menu{
+    background: #9cb2cc ;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+} */
+.logo{
+    display: inline-block;
+    margin-right:350px;
+}
+.nav{
+    display: inline-block;
+}
+.nav__list{}
+.nav__item{
+    display: inline-block;
+    margin-right: 42px;
+}
+.nav__link{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.nav__link:hover,
+.nav__link.active{
+    color: #34547A;
+}
+.block-1{
+    margin: 90px 30px 30px 50px;
+}
+.block-1__pic{
+    width: 360px;
+    margin-right:100px ;
+    float:left; 
+}
+.block-1__info{
+    display: block;
+}
+.info__name{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+.info__txt{
+    max-width: 540px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    
+    color: #727272;
+}
+.info__button{
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;  
+    text-transform: uppercase;
+}
+.button__link{
+    color:  #FFFFFF;  
+	text-decoration: none;	
+	background-color: #34547A; 
+	padding: 1em 2em
+}
+.button__link:hover{
+    background-color: rgb(11, 40, 75);
+}
+.about-me{
+    margin: 150px 50px;
+}
+.me__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+}
+.me__info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #727272;
+}
+.proj{
+    box-sizing: border-box;
+    background: #34547A;
+    height: 150px;
+    padding: 20px 30px;
+}
+.proj__numb{
+    margin: 30px;
+}
+.skills{
+    padding: 90px 50px 60px 50px;
+    display:block;
+    text-align: center; 
+    
+}
+
+.skill__list{
+    display: inline-block;
+    margin-right: 60px; 
+    
+}
+.list__pic{
+     padding-bottom: 30px ; 
+}
+.skills__photo{
+   display: inline-block;
+   /* margin-right: 200px; */
+   text-align: center;
+}
+.photo__pic{
+    width: 350px;
+}
+/* .skills__title{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+color: #000000;
+} */
+
+
+.work{
+    background: #EEEFF1;
+    padding: 30px 0;
+}
+.work__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.work__txt{
+    padding-bottom:30px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #727272;
+}
+.video{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.gallery__pic{
+    max-height: 600px;
+    width: 100%;
+}
+.microsoft__wraper{
+    text-align: center;
+    padding: 20px 0;
+}
+.microsoft__logo{
+    height: 90px;
+    margin-right: 30px;
+}
+.connect{
+    background: #EEEFF1;
+    padding: 10px 0 100px 0;
+}
+.connect__title{
+    font-family: Roboto;
+    font-style: normal;   
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.connect__txt{
+    padding-bottom:15px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #727272;
+}
+
+.sms{
+    text-align: center;
+}
+.sms__data{
+    margin-bottom: 40px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+
+color: #5F5D5D;
+}
+.sms__name{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 5px 5px;
+
+}
+.sms__email{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 5px 5px;
+}
+.sms__txt{
+    width: 438px;
+    height: 150px;
+    border: none;
+}
+.sms__button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;  
+    text-transform: uppercase;
+   
+}
+.sms__link{
+    color:  #FFFFFF;  
+	text-decoration: none;	
+	background-color: #34547A; 
+	padding: 1em 2em;
+
+}
+.sms__link:hover{
+    background-color: rgb(11, 40, 75);
+}
+.end{
+    background: #34547A;
+    display: block;
+    position: relative;
+}
+.end__info{
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+.end__name{
+    margin: 0;
+    padding: 50px 60px 10px 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+}
+.end__txt{
+    margin: 0;
+    padding: 10px 20px 20px 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.end__logo{
+    display: inline-block;
+   
+ }
+.end__list{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top:7vh ;
+    left: 60vw;
+}
+.end__item{
+    display: inline-block;
+    margin-right: 42px;
+}
+.end__pic{
+
+}
